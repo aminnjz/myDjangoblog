@@ -1,7 +1,9 @@
 body {
     background-color:black;
-    background-image:ee;
-    color:#fff
+    background-image:url(/static/stars.jpg);
+    color:#fff;
+    background-repeat:no-repeat ;
+    background-attachment:fixed;
 }
 body *{
     font-family:arial;
