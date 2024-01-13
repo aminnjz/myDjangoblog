@@ -7,9 +7,9 @@
     <head>
         <meta charset="utf-8">
         <title>
-            {%block title%}
+            {% block title %}
                 ppppp
-            {%endblock%}
+            {% endblock %}
         </title>
         <link rel="stylesheet" href="{% static 'styles.css' %}">
         <meta name="description" content="">
@@ -23,7 +23,7 @@
 
     <body>
         <h2><a href="{% url 'articles:list' %}">LOGO</a></h2>
-        {%block content%}
+        {% block content %}
         {% endblock %}
     </body>
 </html>
